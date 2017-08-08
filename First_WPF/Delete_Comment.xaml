@@ -1,0 +1,17 @@
+﻿<Window x:Class="First_WPF.Delete_Comment"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:First_WPF"
+        mc:Ignorable=""
+        Title="" Height="121.014" Width="194.203"
+        WindowStyle="None"
+       >
+    <Grid>
+        <Button x:Name="yes" Content="是" HorizontalAlignment="Left" Margin="110,74,0,0" VerticalAlignment="Top" Width="45" Click="yes_Click"/>
+        <Button x:Name="no" Content="否" HorizontalAlignment="Left" Margin="32,74,0,0" VerticalAlignment="Top" Width="45" Click="no_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="20,41,0,0" TextWrapping="Wrap" Text="是否让这个评论审核不通过？" VerticalAlignment="Top" Width="168"/>
+
+    </Grid>
+</Window>
